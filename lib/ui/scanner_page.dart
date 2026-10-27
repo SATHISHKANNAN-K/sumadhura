@@ -53,7 +53,7 @@ class _ScannerPageState extends State<ScannerPage> {
         _message = 'Visitor verified';
         _error = false;
       });
-      await context.push('/visitors', extra: visitor);
+      await context.push('/visitors/details', extra: visitor);
     } catch (_) {
       if (mounted) {
         setState(() {

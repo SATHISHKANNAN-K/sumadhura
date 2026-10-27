@@ -82,7 +82,8 @@ class VisitorListPage extends StatelessWidget {
                                       final visitor = visitors[index];
                                       return VisitorCard(
                                         visitor: visitor,
-                                        onTap: () => context.push('/visitors',
+                                        onTap: () => context.push(
+                                            '/visitors/details',
                                             extra: visitor),
                                         onEdit: () => context.push(
                                             '/visitors/edit',

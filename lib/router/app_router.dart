@@ -31,7 +31,7 @@ final GoRouter appRouter = GoRouter(
       builder: (context, state) => const VisitorFormPage(),
     ),
     GoRoute(
-      path: '/visitors',
+      path: '/visitors/details',
       name: 'visitorDetails',
       builder: (context, state) {
         final visitor = state.extra as Visitor;
