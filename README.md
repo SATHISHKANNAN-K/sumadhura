@@ -64,14 +64,14 @@ Requirements
    <uses-permission android:name="android.permission.CAMERA" />
 3. Configure the API
    Create a visitors resource in MockAPI and copy the API base URL. For example, use:
-   https://YOUR_PROJECT.mockapi.io/api/v1
+   https://6ae03e448e42963c8d5f305b.mockapi.io/api/v1
    Replace the example URL with your actual service URL.
 4. Install packages and run
    flutter pub get
-   flutter run --dart-define=VISITOR_API_BASE_URL=https://YOUR_PROJECT.mockapi.io/api/v1
+   flutter run --dart-define=VISITOR_API_BASE_URL=https://6ae03e448e42963c8d5f305b.mockapi.io/api/v1
 5. Build the Android APK
    After configuring the API and testing the application, build a release APK with:
-   flutter build apk --release --dart-define=VISITOR_API_BASE_URL=https://YOUR_PROJECT.mockapi.io/api/v1
+   flutter build apk --release --dart-define=VISITOR_API_BASE_URL=https://6ae03e448e42963c8d5f305b.mockapi.io/api/v1
    The API must remain accessible when the application is evaluated. The source archive does not include a compiled APK or a preconfigured live API URL.
    Validation and Testing
    Before demonstrating the application, I would verify the following workflows:
